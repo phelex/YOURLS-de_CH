@@ -34,9 +34,9 @@ Mach damit, was du willst.
 ## Changelog
 
 ### 2025-07-06
-forked [@DerSev](https://github.com/DerSev)
-changed formal *Sie* to informal *du*
-ß → ss
-"" → «»
-fixed erroniously translated 'thousands_sep'
+- forked [@DerSev](https://github.com/DerSev)
+- changed formal *Sie* to informal *du*
+- ß → ss
+- "" → «»
+- fixed erroniously translated 'thousands_sep'
 
