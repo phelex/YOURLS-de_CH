@@ -34,7 +34,7 @@ Mach damit, was du willst.
 ## Changelog
 
 ### 2025-07-06
-- forked [@DerSev](https://github.com/DerSev)
+- forked from [@DerSev](https://github.com/DerSev)
 - changed formal *Sie* to informal *du*
 - ß → ss
 - "" → «»
