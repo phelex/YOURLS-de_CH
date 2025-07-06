@@ -2,20 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.8\n"
 "POT-Creation-Date: 2021-02-22 12:09+0100\n"
-"PO-Revision-Date: 2021-02-26 14:39+0100\n"
+"PO-Revision-Date: 2025-07-06 15:41+0200\n"
+"Last-Translator: Christian Severin\n"
 "Language-Team: Sevtec.de – MediaDesign\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
 "yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
 "yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
 "yourls_nx_noop:1,2\n"
 "X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: Christian Severin\n"
-"Language: de\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: tests\n"
 "X-Poedit-SearchPathExcluded-1: user\n"
@@ -78,7 +78,7 @@ msgstr "Kurz-URL erstellt, konnte aber nicht zu %s umleiten!"
 
 #: admin/index.php:247
 msgid "Unknown \"Share\" bookmarklet"
-msgstr "Unbekanntes \"Teilen\" Lesezeichen"
+msgstr "Unbekanntes «Teilen» Lesezeichen"
 
 #: admin/index.php:300
 #, php-format
@@ -99,11 +99,11 @@ msgstr[1] "zähle <strong>%s</strong> Klicks"
 #: admin/index.php:305
 #, php-format
 msgid ""
-"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
-"%2$s</strong> clicks, and counting!"
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, "
+"<strong>%2$s</strong> clicks, and counting!"
 msgstr ""
-"Insgesamt, Tracking von <strong class=\"increment\">%1$s</strong> Links, "
-"<strong>%2$s</strong> Klicks und mehr!"
+"Tracking von insgesamt <strong class=\"increment\">%1$s</strong> Links und "
+"<strong>%2$s</strong> Klicks."
 
 #: admin/index.php:366 front/index.php:64
 msgid "No URL"
@@ -117,7 +117,7 @@ msgstr "PHP Extension für PDO nicht gefunden"
 #, php-format
 msgid "%s version is too old. Ask your server admin for an upgrade."
 msgstr ""
-"%s-Version ist zu alt. Fragen Sie Ihren Serveradministrator nach einer "
+"%s-Version ist zu alt. Frage deinen Serveradministrator nach einer "
 "Aktualisierung."
 
 #: admin/install.php:29
@@ -163,7 +163,7 @@ msgstr "Plugin wurde deaktiviert"
 
 #: admin/plugins.php:58 includes/functions-html.php:771
 msgid "Manage Plugins"
-msgstr "Verwalte Plugins"
+msgstr "Plugins"
 
 #: admin/plugins.php:64
 msgid "Plugins"
@@ -182,8 +182,8 @@ msgid ""
 "You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
 "strong> activated"
 msgstr ""
-"Sie haben derzeit <strong>%1$s</strong> installiert und <strong>%2$s</"
-"strong> aktiviert"
+"Du hast derzeit <strong>%1$s</strong> installiert und <strong>%2$s</strong> "
+"aktiviert"
 
 #: admin/plugins.php:80
 msgid "Plugin Name"
@@ -243,10 +243,10 @@ msgstr "Mehr Plugins"
 
 #: admin/plugins.php:162
 msgid ""
-"For more plugins, head to the official <a href=\"http://yourls.org/awesome"
-"\">Plugin list</a>."
+"For more plugins, head to the official <a href=\"http://yourls.org/"
+"awesome\">Plugin list</a>."
 msgstr ""
-"Weitere Plugins finden sich in der offiziellen <a href=\"http://yourls.org/"
+"Weitere Plugins finden sich in der offiziellen <a href=\"https://yourls.org/"
 "awesome\">Plugin-Liste</a>."
 
 #: admin/tools.php:6
@@ -274,8 +274,8 @@ msgid ""
 "The <span>Standard Bookmarklets</span> will take you to a page where you can "
 "easily edit or delete your brand new short URL."
 msgstr ""
-"Mit <span>Standard-Bookmarklets</span> gelangen Sie zu einer Seite, auf der "
-"Sie Ihre brandneue Kurz-URL problemlos bearbeiten oder löschen können."
+"Mit <span>Standard-Bookmarklets</span> landest du auf einer Seite, auf der "
+"du die neuen Kurz-URL problemlos bearbeiten oder löschen kannst."
 
 #: admin/tools.php:22
 msgid ""
@@ -285,7 +285,7 @@ msgid ""
 msgstr ""
 "Die <span>Instant-Bookmarklets</span> zeigen die Kurz-URL an, ohne die "
 "angezeigte Seite zu verlassen (abhängig von der Seiten- und "
-"Serverkonfiguration können sie möglicherweise unbemerkt fehlschlagen)."
+"Serverkonfiguration können diese möglicherweise unbemerkt fehlschlagen)."
 
 #: admin/tools.php:24
 msgid ""
@@ -300,8 +300,8 @@ msgid ""
 "The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
 "keyword first."
 msgstr ""
-"In den <span>Benutzerdefinierten Keyword-Lesezeichen</span> werden Sie "
-"zuerst zur Eingabe eines benutzerdefinierten Keywords aufgefordert."
+"In den <span>Benutzerdefinierten Keyword-Lesezeichen</span> wirst du zuerst "
+"zur Eingabe eines benutzerdefinierten Keywords aufgefordert."
 
 #: admin/tools.php:30
 msgid ""
@@ -309,9 +309,9 @@ msgid ""
 "simply <span>select text</span> on the page you're viewing before clicking "
 "on your bookmarklet link"
 msgstr ""
-"Wenn Sie eine Beschreibung zusammen mit dem zu verkürzenden Link teilen "
-"möchten, <span>wählen Sie einfach Text</span> auf der angezeigten Seite aus, "
-"bevor Sie auf Ihren Bookmarklet-Link klicken"
+"Wenn du eine Beschreibung zusammen mit dem zu verkürzenden Link teilen "
+"möchtest, <span>wähle einfach Text</span> auf der angezeigten Seite aus, "
+"bevor du auf den Bookmarklet-Link klickst"
 
 #: admin/tools.php:33
 msgid ""
@@ -321,7 +321,7 @@ msgid ""
 msgstr ""
 "<strong>Wichtiger Hinweis:</strong> Lesezeichen <span>können auf Websites "
 "mit <em>https</em> fehlschlagen</span>, insbesondere die Instant-"
-"Bookmarklets. Daran können Sie nichts ändern."
+"Bookmarklets. Daran kannst du nichts ändern. ¯\\_(ツ)_/¯"
 
 #: admin/tools.php:35
 msgid "The Bookmarklets"
@@ -329,9 +329,7 @@ msgstr "Die Bookmarklets"
 
 #: admin/tools.php:39 admin/tools.php:188
 msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
-msgstr ""
-"Klicken und ziehen Sie Links in Ihre Symbolleiste (oder klicken Sie mit der "
-"rechten Maustaste und setzen Sie ein Lesezeichen)"
+msgstr "Ziehe diese Links in die Lesezeichenleiste"
 
 #: admin/tools.php:45
 msgid "Standard (new page)"
@@ -372,8 +370,8 @@ msgstr "Social-Bookmarklets"
 #: admin/tools.php:187
 msgid "Create a short URL and share it on social networks, all in one click!"
 msgstr ""
-"Erstellen Sie eine Kurz-URL und teilen Sie sie in sozialen Netzwerken, mit "
-"nur einem Klick!"
+"Erstelle eine Kurz-URL und teile sie in sozialen Netzwerken, mit nur einem "
+"Klick!"
 
 #: admin/tools.php:190
 msgid "Shorten and share:"
@@ -402,16 +400,16 @@ msgid ""
 "browser's address bar, add \"<span>%s</span>\" to the beginning of the "
 "current URL (right before its 'http://' part) and hit enter."
 msgstr ""
-"Wenn Sie eine Seite anzeigen, können Sie auch die vollständige URL "
-"voranstellen: Gehen Sie einfach zur Adressleiste Ihres Browsers und fügen "
-"Sie \"<span>%s</span>\" am Anfang der aktuellen URL hinzu (direkt vor dem "
-"'http: //'-Teil) und drücken Sie die Enter."
+"Wenn du eine Seite anzeigst, kannst du auch die vollständige URL "
+"voranstellen: Gehe einfach zur Adressleiste des Browsers (<key>cmd</key>-"
+"<key>L</key>), gib «<span>%s</span>» direkt vor dem 'http: //'-Teil ein und "
+"drücke <key>Enter</key>."
 
 #: admin/tools.php:290
 msgid ""
 "Note: this will probably not work if your web server is running on Windows"
 msgstr ""
-"Hinweis: Dies funktioniert wahrscheinlich nicht, wenn Ihr Webserver unter "
+"Hinweis: Dies funktioniert wahrscheinlich nicht, wenn dein Webserver unter "
 "Windows ausgeführt wird"
 
 #: admin/tools.php:292
@@ -436,18 +434,18 @@ msgid ""
 "make API calls without using your login or your password, using a secret "
 "signature token."
 msgstr ""
-"Wenn Sie sich Sorgen machen, Ihre Anmeldeinformationen in die freie Wildbahn "
-"zu schicken, können Sie auch API-Aufrufe ohne Ihr Login oder Ihr Passwort "
-"durchführen, mit einem geheimen Signatur-Token zu verwenden."
+"Wenn es dir Sorgen macht, deine Anmeldedaten in die freie Wildbahn zu "
+"schicken, kannst du API-Aufrufe ohne Login oder Passwort durchführen und "
+"stattdessen ein geheimes Signatur-Token verwenden."
 
 #: admin/tools.php:306
 #, php-format
 msgid "Your secret signature token: <strong><code>%s</code></strong>"
-msgstr "Ihr geheimer Signatur-Token: <strong><code>%s</code></strong>"
+msgstr "Dein geheimer Signatur-Token: <strong><code>%s</code></strong>"
 
 #: admin/tools.php:307
 msgid "(It's a secret. Keep it secret) "
-msgstr "(Es ist ein Geheimnis. Halten Sie es geheim) "
+msgstr "(Halte das geheim) "
 
 #: admin/tools.php:309
 msgid ""
@@ -464,8 +462,7 @@ msgstr "Verwendung des Signatur-Token"
 #: admin/tools.php:313
 msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
 msgstr ""
-"Verwenden Sie einfach den Parameter <tt>signature</tt> in Ihren API-"
-"Anfragen. Beispiel:"
+"Verwenden den Parameter <tt>signature</tt> in den API-Anfragen. Beispiel:"
 
 #: admin/tools.php:317
 msgid "Usage of a time limited signature token"
@@ -480,8 +477,8 @@ msgid ""
 "Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
 "requests. Example:"
 msgstr ""
-"Verwenden Sie dafür die Parameter <tt>signature</tt> und <tt>timestamp</tt> "
-"in Ihren API-Anfragen. Beispiel:"
+"Verwende dafür die Parameter <tt>signature</tt> und <tt>timestamp</tt> in "
+"API-Anfragen. Beispiel:"
 
 #: admin/tools.php:327
 msgid "Actual values:"
@@ -515,22 +512,23 @@ msgstr "Aktualisierung nicht erforderlich. Gehe <a href=\"%s\">zurück</a>!"
 
 #: admin/upgrade.php:51
 msgid "Your current installation needs to be upgraded."
-msgstr "Ihre aktuelle Installation muss aktualisiert werden."
+msgstr "Deine Installation muss aktualisiert werden."
 
 #: admin/upgrade.php:52
 msgid ""
 "Please, pretty please, it is recommended that you <strong>backup</strong> "
 "your database<br/>(you should do this regularly anyway)"
 msgstr ""
-"Bitte, bitte, es wird empfohlen, dass Sie Ihre Datenbank <strong>sichern</"
-"strong><br/>(Sie sollten dies ohnehin regelmäßig tun)."
+"Es wird wärmstens empfohlen, dass du von deiner Datenbank ein "
+"<strong>Backup</strong> machst<br/>(Das solltest das ohnehin regelmässig "
+"tun)."
 
 #: admin/upgrade.php:53
 msgid ""
 "Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
 "em> happen, right? ;)"
 msgstr ""
-"Es <em>sollte</em> nichts Schreckliches passieren, aber das heißt nicht, "
+"Es <em>sollte</em> nichts Schreckliches passieren, aber das heisst nicht, "
 "dass es <em>nicht</em> passieren <em>wird</em>, oder? ;)"
 
 #: admin/upgrade.php:54
@@ -543,15 +541,15 @@ msgstr ""
 
 #: admin/upgrade.php:55
 msgid ""
-"If everything goes too fast and you cannot read, <span class=\"success"
-"\">good for you</span>, let it go :)"
+"If everything goes too fast and you cannot read, <span "
+"class=\"success\">good for you</span>, let it go :)"
 msgstr ""
-"Wenn alles zu schnell geht und Sie nicht lesen können, <span class=\"success"
-"\">gut für Sie</span>, lassen Sie es :)"
+"Wenn alles zu schnell geht und Sie nicht lesen können, <span "
+"class=\"success\">gut für Sie</span>, lassen Sie es :)"
 
 #: admin/upgrade.php:56
 msgid "Once you are ready, press \"Upgrade\" !"
-msgstr "Wenn Sie fertig sind, klicken Sie auf \"Aktualisieren\"!"
+msgstr "Wenn Sie fertig sind, klicken Sie auf «Aktualisieren\"!"
 
 #: admin/upgrade.php:65
 msgid "Upgrade"
@@ -559,7 +557,7 @@ msgstr "Upgrade"
 
 #: admin/upgrade.php:77
 msgid "Your installation is now up to date ! "
-msgstr "Ihre Installation ist jetzt auf dem neuesten Stand! "
+msgstr "Deine Installation ist jetzt auf dem neuesten Stand! "
 
 #: admin/upgrade.php:78
 #, php-format
@@ -707,8 +705,7 @@ msgstr "Schwerwiegender Fehler"
 #, php-format
 msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
 msgstr ""
-"Kennwörter konnten nicht automatisch verschlüsselt werden. Fehler war: \"%s"
-"\"."
+"Kennwörter konnten nicht automatisch verschlüsselt werden. Fehler war: «%s»."
 
 #: includes/auth.php:55
 #, php-format
@@ -720,7 +717,7 @@ msgstr "<a href=\"%s\">Hilfe erhalten</a>."
 msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
 msgstr ""
 "<a href=\"%s\">Hier klicken</a> um diese Nachricht für eine Woche zu "
-"schließen."
+"schliessen."
 
 #: includes/class-mysql.php:16
 msgid "Incorrect DB config, please refer to documentation"
@@ -797,7 +794,7 @@ msgstr "Teilen mit"
 
 #: includes/functions-html.php:441
 msgid "Tweet this!"
-msgstr "Dies twittern!"
+msgstr "Twittern!"
 
 #: includes/functions-html.php:442
 msgid "Share on Facebook"
@@ -892,7 +889,7 @@ msgstr "Tools"
 #: includes/functions-html.php:851
 #, php-format
 msgid "Page \"%1$s\" not found"
-msgstr "Seite \"%1$s\" nicht gefunden"
+msgstr "Seite «%1$s» nicht gefunden"
 
 #: includes/functions-html.php:851
 msgid "Not found"
@@ -904,7 +901,7 @@ msgstr "Heute"
 
 #: includes/functions-html.php:898 includes/functions-html.php:903
 msgid "Close"
-msgstr "Schließen"
+msgstr "Schliessen"
 
 #: includes/functions-html.php:918
 #, php-format
@@ -914,7 +911,7 @@ msgstr ""
 
 #: includes/functions-html.php:956
 msgid "Drag to your toolbar!"
-msgstr "Auf Ihre Symbolleiste ziehen!"
+msgstr "Auf deine Lesezeichenleiste ziehen!"
 
 #: includes/functions-install.php:258
 #, php-format
@@ -1147,11 +1144,11 @@ msgstr "PM"
 
 #: includes/functions-l10n.php:823
 msgid "number_format_thousands_sep"
-msgstr "Zahlenformat Tausender-Trennzeichen"
+msgstr "’"
 
 #: includes/functions-l10n.php:827
 msgid "number_format_decimal_point"
-msgstr "Zahlenformat Dezimalpunkt"
+msgstr "."
 
 #: includes/functions-l10n.php:834
 msgid "ltr"
@@ -1276,15 +1273,15 @@ msgstr "Service vorübergehend nicht verfügbar"
 
 #: includes/functions.php:1007
 msgid "Our service is currently undergoing scheduled maintenance."
-msgstr "Unser Service wird derzeit planmäßig gewartet."
+msgstr "Unser Service wird derzeit planmässig gewartet."
 
 #: includes/functions.php:1008
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
-"Das sollte nicht lange dauern, danke für Ihre Geduld und entschuldigen Sie "
-"bitte die Unannehmlichkeiten"
+"Das sollte nicht lange dauern, danke für deine Geduld und entschuldige bitte "
+"die Unannehmlichkeiten"
 
 #: includes/functions.php:1134
 #, php-format
